@@ -1,0 +1,13 @@
+Picior Catalin 312CB
+Pt rezolvarea problemei am folosit functii mici, modulare. Am folosit 3 functii
+pentru afisare fiecarei linii a unui tabel, in functie de tipul de date, 3
+functii pentru afisarea tuturor liniilor, 3 functii pentru cautarea unei linii
+dupa anumite conditii si inca 3 functii pentru cautare si stergere a unei linii
+dupa anumite conditii. Am creat toate functiile in 3 fisiere .c, asa cum erau
+structurate in enuntul temei, dupa functionalitate. Am adaugat un fisier,
+"fun_decl." in care am pus toate declaratiile functiilor si typedef-urile
+create de mine. In main, pentru fiecare comanda data, verific cu strcmp
+denumirea ei, si apelez o functie cu acelasi nume(fiecare functie foloseste, la
+randul ei, functiile amintite mai sus).
+Punctaj total 85.0/85.0
+Punctaj valgrind 20.0/20.0
